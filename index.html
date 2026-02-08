@@ -13,12 +13,15 @@
 <body>
     <div class="titulo-principal">
         <h1>Olivos Suplementos</h1>
-        <h4>Suplementos Nutricionales y cuidado Personal</h4>
+        <h4>Suplementos Nutricionales y Cuidado Personal</h4>
     </div>
 
-    <input type="text" id="buscador" placeholder="Busca un producto (ej: Whey, Creatina, Shaker...)">
+    <input type="text" id="buscador" placeholder="Busca un producto">
 
     <div class="contenedor-principal">
+        <div id="contenedor-grupos">
+        </div>
+
         <div id="lista-productos">
         </div>
 
@@ -26,12 +29,18 @@
             <h2>Detalle del Producto</h2>
             <p id="nombre-producto-seleccionado">Selecciona un producto de la lista.</p>
             <img id="imagen-producto" class="imagen-producto" src="" alt="Imagen del producto seleccionado">
+            <p id="mensaje-sin-imagen" class="mensaje-sin-imagen" style="display: none;">📷 No tenemos imagen de referencia</p>
         </div>
     </div>
 
     <footer class="pie-pagina">
-        <p>Envíos (¡incluidos!) en Zona Norte y CABA<br>
-        Realizá YA tu pedido 👉 +54 9 11 6448-0270</p>
+        <p>
+            <span class="footer-item">🚚 Envíos (¡incluidos!) en Zona Norte y CABA</span>
+            <span class="footer-separador">|</span>
+            <span class="footer-item">Realizá YA tu pedido 💬 <a href="https://wa.me/5491164480270" target="_blank" rel="noopener noreferrer" class="enlace-footer">+54 9 11 6448-0270</a></span>
+            <span class="footer-separador">|</span>
+            <span class="footer-item">Seguinos en Instagram 📷 <a href="https://instagram.com/olivos.suplementos" target="_blank" rel="noopener noreferrer" class="enlace-footer">@olivos.suplementos</a></span>
+        </p>
     </footer>
 
     <script src="JS/catalogo.js"></script>

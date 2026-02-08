@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#f0f0f0"/>
+  <text x="200" y="180" font-family="Arial, sans-serif" font-size="24" fill="#556B2F" text-anchor="middle">OLIVOS SUPLEMENTOS</text>
+  <text x="200" y="220" font-family="Arial, sans-serif" font-size="18" fill="#36454F" text-anchor="middle">Imagen no disponible</text>
+  <circle cx="200" cy="260" r="40" fill="none" stroke="#556B2F" stroke-width="3"/>
+  <path d="M 200 235 L 200 275" stroke="#556B2F" stroke-width="3"/>
+  <path d="M 180 255 L 220 255" stroke="#556B2F" stroke-width="3"/>
+</svg>
