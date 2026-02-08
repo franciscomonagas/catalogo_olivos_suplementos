@@ -453,8 +453,19 @@ body > * {
     padding: 10px;
   }
   .pie-pagina {
-    padding: 8px 0 6px 0;
-    font-size: 0.9em;
+    padding: 10px 10px;
+    font-size: 0.85em;
+  }
+  .pie-pagina p {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .footer-separador {
+    display: none;
+  }
+  .footer-item {
+    white-space: normal;
+    text-align: center;
   }
 }
 
@@ -486,8 +497,19 @@ body > * {
     margin: 5px auto;
   }
   .pie-pagina {
-    font-size: 0.85em;
-    padding: 8px 5px;
+    font-size: 0.75em;
+    padding: 10px 5px;
+  }
+  .pie-pagina p {
+    flex-direction: column;
+    gap: 6px;
+  }
+  .footer-separador {
+    display: none;
+  }
+  .footer-item {
+    white-space: normal;
+    text-align: center;
   }
   .imagen-producto {
     max-height: 200px;
